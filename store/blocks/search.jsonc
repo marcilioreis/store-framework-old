@@ -57,10 +57,10 @@
   },
   "gallery": {
     "blocks": [
-      "product-summary.shelf"
+      "product-summary.shelf#search"
     ]
   },
-  "product-summary.shelf": {
+  "product-summary.shelf#search": {
     "children": [
       "product-summary-sku-selector"
     ]
