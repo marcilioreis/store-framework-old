@@ -5,7 +5,8 @@
       "info-card#button-left",
       "flex-layout.row",
       "rich-text#deletar",
-      "shelf"
+      "shelf",
+      "slider-layout"
     ]
   },
 
