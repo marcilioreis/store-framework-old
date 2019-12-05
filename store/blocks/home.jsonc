@@ -3,10 +3,9 @@
     "blocks": [
       "info-card#button-right",
       "info-card#button-left",
-      "flex-layout.col",
       "flex-layout.row",
-      "info-card#rethink",
-      "rich-text#deletar"
+      "rich-text#deletar",
+      "shelf"
     ]
   },
 
@@ -58,11 +57,6 @@
       "callToActionText": "Discover",
       "textPosition": "center"
     }
-  },  
-  "rich-text#deletar": {
-    "props": {
-      "text": "I'll be deleted soon"
-    }
   },
   "image#electronics": {
     "props": {
@@ -75,5 +69,10 @@
       "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/major_appliance_banner___bb10093866a127345ddfbcca3efa5022.png",
       "maxWidth": "100%"
     }
-  } 
+  },
+  "rich-text#deletar": {
+    "props": {
+      "text": "I'll be deleted soon"
+    }
+  }
 }
