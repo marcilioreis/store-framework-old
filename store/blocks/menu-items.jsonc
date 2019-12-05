@@ -128,5 +128,71 @@
         "text": "Cameras"
       }
     }
+  },
+  "header-row#search": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {
+      "sticky": true
+    }
+  },
+  "login":{
+      "props": {
+        "showIconProfile": true,
+        "iconLabel": "Login"
+      }
+  },
+    
+  "logo":{
+      "props": {
+        "url": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/flatflat___6081e50402943bcb11bc45a8e613aa72.png"
+      }
+  },
+  "vtex.menu@2.x:menu#categories": {
+      "children": [
+        "menu-item#major-appliances",
+        "menu-item#small-appliances",
+        "menu-item#electronics"
+      ],
+  
+      "props":{
+        "orientation": "horizontal"
+      }
+  },
+  "vtex.menu@2.x:menu#majorApl": {
+      "children": [
+          "menu-item#refrigerators",
+          "menu-item#ovens",
+          "menu-item#washers"
+      ],
+  
+      "props":{
+        "orientation": "vertical"
+      }
+  },
+  "vtex.menu@2.x:menu#electtronics": {
+    "children": [
+        "menu-item#refrigerators",
+        "menu-item#ovens",
+        "menu-item#washers"
+    ],
+
+    "props":{
+      "orientation": "vertical"
+    }
+},
+  "vtex.menu@2.x:submenu#major":{
+      "children":[
+        "vtex.menu@2.x:menu#major"
+      ],
+      "props":{
+          "orientation": "vertical"
+      }
+  },
+  "vtex.menu@2.x:submenu#small":{
+      "children":[
+        "vtex.menu@2.x:menu#small"
+      ]
   }
 }
