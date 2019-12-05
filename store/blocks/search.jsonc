@@ -62,7 +62,7 @@
   },
   "product-summary.shelf": {
     "children": [
-      "sku-selector"
+      "product-summary-sku-selector"
     ]
   }
 }
