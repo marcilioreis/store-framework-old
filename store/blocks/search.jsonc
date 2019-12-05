@@ -22,7 +22,7 @@
       "search-fetch-previous",
       "flex-layout.row#results",
       "search-fetch-more"
-    ]
+    ] 
   },
   "flex-layout.row#top": {
     "children": [
