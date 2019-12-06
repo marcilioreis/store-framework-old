@@ -56,7 +56,8 @@
     },
     "rich-text#header": {
         "props": {
-          "text": "**Free Shipping on orders over $50**"
+          "text": "**Free Shipping on orders over $50**",
+          "textPosition": "CENTER"
         }
     },
     "header-row#main-mobile": {
@@ -64,8 +65,7 @@
           "logo",
           "header-spacer",
           "minicart",
-          "login",
-          "drawer"
+          "login"
         ],
         "props": {
           "sticky": true,
